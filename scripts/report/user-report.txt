@@ -1,0 +1,26 @@
+===== USER INFO REPORT =====
+Current user:
+shivasai
+
+User ID and Groups:
+uid=1000(shivasai) gid=1000(shivasai) groups=1000(shivasai),27(sudo)
+
+Groups:
+shivasai adm cdrom sudo dip plugdev lpadmin sambashare
+
+Current Shell:
+/bin/bash
+
+First 5 users:
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+
+First 5 groups:
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,shivasai
